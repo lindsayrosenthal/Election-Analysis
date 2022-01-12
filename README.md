@@ -46,3 +46,12 @@ The client has provided a csv file of the election data. They are interested in 
     - winning_candidate = candidate_name
     - winning_percentage = vote_percentage
 ## Election Audit Summary
+- This script can be recycled to inform the client of the results of multiple elections.
+- If you had a csv with different information:
+  - you can set the variables to match your new file.
+- For Ex. - total votes
+ - upload and open your new csv in place of the current election data.
+ - make sure when you want to create variables. pull the correct index number for the data you want from the file.
+  - ex.2 candidate_name = row[2], this should be the index number for your candidate name in the csv.
+    - similarly with county_name = row[1]
+- This will ensure that the rest of the code will respond well to the new information
